@@ -1,4 +1,4 @@
-# AI Intrusion Detection System
+# AI Intrusion Detection System (IDS)
 ### Description
 The AI Intrusion Detection System is a machine learning-based solution that analyzes network traffic or system logs to detect potential security threats and anomalous activities. By utilizing machine learning algorithms, such as anomaly detection and behavioral analysis, it identifies patterns indicative of cyber attacks.
 
@@ -13,16 +13,24 @@ This project aims to provide a scalable and effective solution for detecting and
 
 ### Installation
 1. Clone the repository:
-```git clone https://github.com/your-username/ai-intrusion-detection.git```
+```
+git clone https://github.com/your-username/ai-intrusion-detection.git
+```
 2. Install the required dependencies:
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 3. Configure the system by modifying the settings file:
-```cp config.example.yaml config.yaml```
+```
+cp config.example.yaml config.yaml
+```
 Edit the `config.yaml` file to suit your environment.
 
 ### Usage
 1. Run the main application:
-```python main.py```
+```
+python main.py
+```
 2. The system will start analyzing network traffic or system logs in real-time.
 3. When potential security threats are detected, alerts will be generated or appropriate actions will be taken.
 
